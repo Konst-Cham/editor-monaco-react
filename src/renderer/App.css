@@ -1,0 +1,156 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+/*
+
+body {
+    position: relative;
+    color: white;
+    height: 100vh;
+    background: linear-gradient(
+            200.96deg,
+            #fedc2a -29.09%,
+            #dd5789 51.77%,
+            #7a2c9e 129.35%
+    );
+    font-family: sans-serif;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    appearance: none;
+    font-size: 1.3rem;
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    transition: all ease-in 0.1s;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+}
+
+a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.Hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+*/
+
+
+/*
+html[data-theme='light'] {
+  /* light theme */
+/*
+  .app_container {
+    background-color: #b5f1ea;
+    color: #ff0000
+  }
+
+  .app_button,
+  .app_button:hover,
+  .app_button:active,
+  .app_button:not(:disabled):not(.disabled):active {
+    color: #ff0000;
+    background-color: #ff0000;
+    border-color: #ff0000;
+
+  }
+}
+
+ */
+
+.ant-tabs-nav{
+  margin-bottom:0 !important;
+}
+
+.ant-tabs-content
+{
+  height: 1080px;
+  width: 1920px;
+
+}
+
+
+.ant-tabs-tabpane
+{
+  height: 100%;
+  width: 100%;
+
+}
+html[data-theme='dark'] {
+  .ant-tabs-tabpane,
+  .ant-tabs-nav-wrap,
+  .ant-tabs-tab-active,
+  .ant-select-selector,
+  .css-dev-only-do-not-override-txh9fw ,
+  .ant-select-arrow
+  {
+    background-color: #242f3d !important;
+    color: white !important;
+
+  }
+  .view-lines {
+    background-color: #242f3d;
+    color: #6189b4;
+  }
+  .mtk1{
+    color: #f7f36d;
+  }
+  .margin-view-overlays{
+    background-color: #242f3d;
+  }
+  .line-numbers {
+    color: white;
+   }
+  .decorationsOverviewRuler{
+    color: #1e1e1e;
+    background-color: #1e1e1e;
+    }
+  .active-line-number
+  {
+    background-color: #6189b4;
+  }
+
+}
+/*
+}
+.app_container{
+  background-color: var(--background-color) ;
+}
+.app_button,
+.app_button:hover,
+.app_button:active,
+.app_button:not(:disabled):not(.disabled):active{
+color: var(--button-text-color);
+  background-color: var(--button-background-color);
+  border-color: var(--button-border-color) ;
+}
+*/

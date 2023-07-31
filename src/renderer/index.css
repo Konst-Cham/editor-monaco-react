@@ -1,0 +1,34 @@
+{
+
+
+html[data-theme='dark'] {
+    /* dark theme */
+    --button-text-color: #ffffff;
+    --button-background-color: #ffffff;
+    --button-border-color: #ffffff;
+
+    --input-text-color: #ffffff;
+    --input-placeholder-text-color: #ffffff;
+    --input-background-color: #ffffff;
+    --input-border-color: #ffffff;
+
+    --background-color: #ffffff;
+    --icon-color: #ffffff
+}
+html[data-theme='light'] {
+/* light theme */
+    --button-text-color: #b5f1ea;
+;
+    --button-background-color: #b5f1ea;
+;
+    --button-border-color: #b5f1ea;
+
+    --input-text-color: #b5f1ea;
+    --input-placeholder-text-color: #b5f1ea;
+    --input-background-color: #b5f1ea;
+    --input-border-color: #b5f1ea;
+
+    --background-color: #b5f1ea;
+    --icon-color: #b5f1ea
+}
+}
